@@ -4,7 +4,7 @@ return {
     "hrsh7th/cmp-nvim-lsp",
   },
   config = function()
-    vim.lsp.set_log_level("OFF")
+    vim.lsp.log.set_level("OFF")
     vim.diagnostic.config({
       virtual_text = true,
       signs = true,
